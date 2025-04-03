@@ -1,0 +1,40 @@
+
+Structure du projet : DOCK6_COMPLETE_PIPELINE
+---------------------------------------------
+
+📁 data/
+│
+├── 📁 input/
+│   ├── genotype_data.bed
+│   ├── genotype_data.bim
+│   ├── genotype_data.fam
+│   ├── genotype_data.gamma_input.txt
+│   ├── genotype_data.map
+│   ├── genotype_data.ped
+│   └── genotype_data.raw
+│
+├── 📁 output/
+│   ├── 📁 adegenet_results/
+│   ├── 📁 gamma_results/
+│   ├── 📁 ibd_results/
+│   └── 📁 roh_results/
+
+📁 scripts/
+│   ├── adegenet_analysis.R
+│   └── commands_pipeline_dock6.sh
+
+📄 pipeline_dock6.py
+📄 README_DOCK6_PIPELINE.md
+
+Description :
+-------------
+- Le dossier `data/input/` contient les fichiers nécessaires à l'exécution du pipeline (génotypage, carte, format PED/RAW).
+- Le dossier `data/output/` est organisé par type d’analyse :
+  - `roh_results/` : résultats PLINK sur les segments ROH
+  - `ibd_results/` : résultats KING sur la parenté
+  - `adegenet_results/` : graphiques de structure populationnelle (DAPC, arbres)
+  - `gamma_results/` : fichiers pour datation de la mutation
+- Le dossier `scripts/` contient les scripts shell ou R appelés dans le pipeline.
+- `pipeline_dock6.py` est le script principal d’analyse.
+- `README_DOCK6_PIPELINE.md` fournit la documentation d’utilisation.
+
