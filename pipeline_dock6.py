@@ -2,7 +2,7 @@
 Pipeline d’analyse de l’effet fondateur (DOCK6)
 ------------------------------------------------
 Auteur     : Patrick MUNIER
-Version    : 1.0
+Version    : 1.0 Alpha
 Description: Ce script exécute une analyse génétique complète à partir de fichiers SNP pour détecter
              un effet fondateur autour d’une mutation. Il utilise PLINK, KING, Adegenet et Gamma pour :
              - Identifier les segments ROH

@@ -35,5 +35,5 @@ Améliorations proposées pour le pipeline DOCK6
 
 8. 🧪 Ajout de tests unitaires (optionnel)
    - Vérifier que chaque fonction retourne les résultats attendus
-   - Peut être intégré à un futur GitHub CI/CD
+   - Peut être intégré à un futur GitHub CI/CD (fait)
 

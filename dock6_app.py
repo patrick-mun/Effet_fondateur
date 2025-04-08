@@ -112,3 +112,4 @@ with tabs[2]:
             st.download_button("📥 Télécharger le rapport complet (PDF)", f, file_name="rapport_complet_pipeline.pdf")
     else:
         st.warning("Rapport PDF non disponible.")
+
