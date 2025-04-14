@@ -19,17 +19,19 @@ st.markdown("""
     .stButton>button {
         background-color: #2c3e50;
         color: white;
+        box-shadow: 10px 5px 5px #34495e;
     }
     .stDownloadButton>button {
         background-color: #34495e;
         color: white;
+        box-shadow: 10px 5px 5px #2c3e50;
     }
 </style>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 # 🧬 EFFET FONDATEUR - Interface Web d’Analyse Génomique
-Bienvenue dans l'application de traitement bioinformatique pour la mise en evidence de **l'effet fondateur d'une mutation**. Consultez aussi la [documentation détaillée 📘](README_DOCK6_PIPELINE.md) pour en savoir plus sur le pipeline et l'organisation des fichiers. Sélectionnez vos fichiers d'entrée et choisissez les étapes à exécuter.
+Bienvenue dans l'application de traitement bioinformatique pour la mise en evidence de **l'effet fondateur d'une mutation**. Sélectionnez vos fichiers d'entrée et choisissez les étapes à exécuter.
 
 Vous pouvez également consulter la documentation complète ci-dessous ou la télécharger.
 """)
