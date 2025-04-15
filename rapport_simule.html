@@ -1,0 +1,25 @@
+
+        <html>
+        <head>
+            <meta charset='utf-8'>
+            <title>Rapport d'analyse génétique</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+                header { background: #005f73; color: white; padding: 1em; text-align: center; position: sticky; top: 0; }
+                nav { background: #0a9396; padding: 0.5em; text-align: center; }
+                nav a { color: white; margin: 0 1em; text-decoration: none; font-weight: bold; }
+                nav a:hover { text-decoration: underline; }
+                section { padding: 2em; background: white; margin: 2em auto; width: 80%; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+                img { max-width: 100%; border: 1px solid #ccc; margin-top: 1em; }
+                table { margin-top: 1em; width: 100%; border-collapse: collapse; background: white; }
+                th, td { border: 1px solid #999; padding: 0.5em; text-align: center; }
+                th { background: #e0f7fa; }
+            </style>
+        </head>
+        <body>
+        <header>
+            <h1>Rapport de l'analyse génétique</h1>
+        </header>
+        <nav>
+        <a href='#resume'>Résumé</a>
+        <a href='#analyse_roh'>Analyse ROH</a><a href='#analyse_gamma'>Analyse Gamma</a><a href='#projection_dapc'>Projection DAPC</a><a href='#arbre_phylogénétique'>Arbre phylogénétique</a><a href='#hobs___hexp'>Hobs / Hexp</a></nav><section id='resume'><h2>Résumé des analyses</h2><table border='1' cellpadding='5' cellspacing='0' style='width:100%;border-collapse:collapse;'><tr><th>Module</th><th>Statistique</th><th>Commentaire</th></tr><tr><td>ROH</td><td>Nombre moyen de ROH: 12</td><td>Stable entre cas et témoins</td></tr><tr><td>LD</td><td>r² moyen: 0.21</td><td>Baisse attendue</td></tr><tr><td>Gamma</td><td>Gamma moyen: 0.83</td><td>Au-dessus du seuil</td></tr><tr><td>DAPC</td><td>Nb clusters: 3</td><td>Différenciation visible</td></tr></table></section><section id='analyse_roh'><h2>Analyse ROH</h2><img src='output/roh/roh_plot.png' alt='Analyse ROH'></section><section id='analyse_gamma'><h2>Analyse Gamma</h2><img src='output/gamma/gamma_plot.png' alt='Analyse Gamma'></section><section id='projection_dapc'><h2>Projection DAPC</h2><img src='output/adegenet/dapc_plot.png' alt='Projection DAPC'></section><section id='arbre_phylogénétique'><h2>Arbre phylogénétique</h2><img src='output/adegenet/dapc_tree.png' alt='Arbre phylogénétique'></section><section id='hobs___hexp'><h2>Hobs / Hexp</h2><img src='output/adegenet/dapc_hexp.png' alt='Hobs / Hexp'></section></body></html>

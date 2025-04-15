@@ -1,0 +1,5 @@
+Module,Statistique,Commentaire
+ROH,Nombre moyen de ROH: 12,Stable entre cas et témoins
+LD,r² moyen: 0.21,Baisse attendue
+Gamma,Gamma moyen: 0.83,Au-dessus du seuil
+DAPC,Nb clusters: 3,Différenciation visible
