@@ -38,3 +38,18 @@ Description :
 - `pipeline_dock6.py` est le script principal d’analyse.
 - `README_DOCK6_PIPELINE.md` fournit la documentation d’utilisation.
 
+structure modulaire
+
+scripts/
+├── __init__.py
+├── preprocessing.py          ← Étapes de filtrage, groupes cas/témoins
+├── roh.py                    ← Détection des ROH
+├── ibd.py                    ← Détection IBD avec KING et PLINK
+├── ld.py                     ← Calcul LD (r² et D)
+├── gamma.py                  ← Gamma input + graphique + exécution
+├── adegenet.py               ← Analyse de structure R
+├── reporting.py              ← Graphiques, PDF
+├── utils.py                  ← Commandes shell/logging
+tests/
+├── test_gamma.py             ← Exemple de test unitaire
+
